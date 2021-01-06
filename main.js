@@ -17,9 +17,11 @@ function getRandomNumber() {
 
 // symbols 
 function getRandomSymbol() {
-    
+    const symbols = '!@#$%^&*(){}[]=<>/,.?+_-';
+    return symbols[Math.floor(Math.random() * symbols.length)];
 }
 
-console.log(getRandomLower());
-console.log(getRandomUpper());
-console.log(getRandomNumber());
+// console.log(getRandomLower());
+// console.log(getRandomUpper());
+// console.log(getRandomNumber());
+// console.log(getRandomSymbol());
