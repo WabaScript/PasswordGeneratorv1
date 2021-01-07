@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: rgb(93, 206, 168);
+    background-color: #b51a00;
     color: azure;
     display: flex;
     flex-direction: column;
@@ -16,6 +16,38 @@ body {
 
 p {
     margin: 5px 0;
+}
+
+.container {
+    border-radius: 18px;
+    background: linear-gradient(225deg, #a31700, #c21c00);
+    box-shadow:  -5px 5px 28px #8f1500,
+                5px -5px 28px #db1f00;
+    padding: 20px;
+    width: 350px;
+    max-width: 100%;
+}
+
+.result-container {
+	background-color: rgba(0, 0, 0, 0.4);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding: 12px 10px;
+	height: 50px;
+	width: 100%;
+}
+
+.result-container .btn {
+	font-size: 20px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	height: 40px;
+	width: 40px;
 }
 
 @media screen and (max-width: 400px) {
